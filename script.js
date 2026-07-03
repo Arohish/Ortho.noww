@@ -50,14 +50,6 @@ if (form) {
             page_name: "Consultation Landing Page"
         });
 
-        window.dataLayer.push({
-    event: "consultation_form_submitted",
-    patient_name: name,
-    phone_number: phone,
-    clinic_location: clinic,
-    lead_source: "Google Ads",
-    page_name: "Consultation Landing Page"
-});
 
 // Show the event in the browser console
 console.log("Form Submitted Successfully");
