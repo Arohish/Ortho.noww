@@ -413,7 +413,7 @@ document.getElementById("loader").style.display="none";
 
 };
 
-document.querySelectorAll("button,.primary-btn").forEach(btn=>{
+document.querySelectorAll("button, .primary-btn").forEach(btn=>{
 
 btn.addEventListener("click",function(e){
 
