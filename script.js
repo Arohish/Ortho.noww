@@ -5,6 +5,7 @@
 // ------------------------------
 // Initialize GTM Data Layer
 // ------------------------------
+console.log("script.js loaded");
 window.dataLayer = window.dataLayer || [];
 
 // ------------------------------
