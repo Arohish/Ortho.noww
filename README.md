@@ -50,3 +50,14 @@ To ensure the WhatsApp confirmation is delivered within two minutes, API respons
 ## Why This Approach
 
 This architecture separates the frontend from external services, improving security, maintainability, and scalability. Using a backend API allows business logic such as validation, deduplication, retries, and monitoring to be implemented in one place while keeping sensitive API keys secure.
+
+
+## PageSpeed Insights
+
+### Mobile
+- Performance: 93
+- Accessibility: 79
+- Best Practices: 100
+- SEO: 100
+
+![PageSpeed Screenshot](pagespeed-ss.png)
