@@ -1,9 +1,6 @@
 /*==================================================
             ORTHONOW LANDING PAGE
-                PART 1A
-==================================================*/
-
-
+                PART 1Alo
 /*==========================
         RESET
 ==========================*/
@@ -1316,4 +1313,115 @@ font-size:26px;
 
 }
 
+
+/* =======================
+   Locations
+======================= */
+
+.locations{
+    padding:80px 8%;
+    background:#f8fbff;
+}
+
+.location-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.location-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.location-card:hover{
+    transform:translateY(-6px);
+}
+
+.location-card h3{
+    margin-bottom:10px;
+}
+
+.location-card p{
+    color:#666;
+}
+
+/* =======================
+FAQ
+======================= */
+
+.faq{
+    padding:80px 8%;
+}
+
+.faq-container{
+    max-width:800px;
+    margin:auto;
+}
+
+.faq-item{
+    margin-bottom:18px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq-question{
+    width:100%;
+    border:none;
+    background:#0d6efd;
+    color:#fff;
+    padding:18px;
+    cursor:pointer;
+    font-size:17px;
+    text-align:left;
+}
+
+.faq-answer{
+    display:none;
+    background:#fff;
+    padding:18px;
+    color:#555;
+}
+
+/* =======================
+CTA
+======================= */
+
+.bottom-cta{
+    text-align:center;
+    padding:80px 8%;
+    background:linear-gradient(135deg,#0d6efd,#00b894);
+    color:white;
+}
+
+.bottom-cta h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.bottom-cta p{
+    margin-bottom:30px;
+}
+
+.bottom-cta .primary-btn{
+    background:white;
+    color:#0d6efd;
+}
+
+/* =======================
+Footer
+======================= */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
 
