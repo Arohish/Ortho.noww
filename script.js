@@ -379,33 +379,26 @@ console.log(
 
 );
 
-const topBtn=document.getElementById("topBtn");
+const topBtn = document.getElementById("topBtn");
 
-window.addEventListener("scroll",()=>{
+if (topBtn) {
 
-if(window.scrollY>500){
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+            topBtn.style.display = "block";
+        } else {
+            topBtn.style.display = "none";
+        }
+    });
 
-topBtn.style.display="block";
-
-}else{
-
-topBtn.style.display="none";
+    topBtn.onclick = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
 
 }
-
-});
-
-topBtn.onclick=()=>{
-
-window.scrollTo({
-
-top:0,
-
-behavior:"smooth"
-
-});
-
-};
 
 window.onload=()=>{
 
@@ -413,7 +406,7 @@ document.getElementById("loader").style.display="none";
 
 };
 
-document.querySelectorAll("button, .primary-btn").forEach(btn=>{
+document.querySelectorAll("button, .primary-btn").forEach(btn => {
 
 btn.addEventListener("click",function(e){
 
